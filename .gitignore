@@ -1,0 +1,18 @@
+# Python backend for club management
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.env
+venv/
+.venv
+.vscode/
+.idea/
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db

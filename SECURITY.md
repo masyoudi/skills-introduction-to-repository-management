@@ -1,23 +1,28 @@
-# Security Policy
-
-## Supported Versions
-
-Since this is a small, simple FastAPI application, security updates are currently only provided for the latest version on the `main` branch.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| main    | :white_check_mark: |
-| < 1.0   | :x:                |
+# Mergington High School Security Policy
 
 ## Reporting a Vulnerability
 
-We take the security of this application seriously. If you discover a security vulnerability within this project, please **do not** open a public issue. 
+At Mergington High, we take the security of our Extra-Curricular Activities website seriously, especially
+since it contains student information. If you discover a security vulnerability, please follow these steps:
 
-Instead, please report it by emailing the maintainers at `masyoudi@gmail.com`. 
+1. **Do not** create an issue on this repository, disclose the vulnerability publicly, or discuss it with other teachers/students.
+1. In the top navigation of this repository, click the **Security** tab.
+1. In the top right, click the **Report a vulnerability** button.
+1. Fill out the provided form. It will request information like:
+   - A description of the vulnerability
+   - Steps to reproduce the issue
+   - Potential impact on student data or website functionality
+   - Suggested fix (if you have one)
+1. Email the IT Club faculty advisor at techsupport@mergingtonhigh.example.edu and inform them you have made a report. **Do not** include any vulnerability details.
 
-**Please include the following information in your report:**
-* A description of the vulnerability.
-* Steps to reproduce the issue (including any example payloads or FastAPI endpoints involved).
-* The potential impact of the vulnerability.
+## Response Timeline
 
-We will try to acknowledge your report within 48 hours and provide an estimated timeline for a fix and disclosure. Once the issue has been resolved, we will publish a security advisory.
+- We will acknowledge receipt of your report within 2 school days
+- We will provide an initial assessment within 5 school days
+- Critical issues affecting student data will be addressed immediately
+- We will create a private fork to solve the issue and invite you as a collaborator so you can see our progress and contribute.
+
+## Thank You
+
+Your help in keeping our school's digital resources secure is greatly appreciated!
+Responsible disclosure of security vulnerabilities helps protect our entire school community.
